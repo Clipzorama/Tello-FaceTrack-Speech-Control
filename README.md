@@ -1,4 +1,4 @@
-# Tello Drone: Face Tracking & Speech Command Control 🚁
+<img width="2218" height="828" alt="image" src="https://github.com/user-attachments/assets/62b93a75-5702-4293-bcf2-bbd62d5dcfaf" /># Tello Drone: Face Tracking & Speech Command Control 🚁
 
 Welcome to the Tello Drone Face Tracking & Speech Recognition Project! This repository contains code and resources to enable your Tello drone to detect faces, track objects, and respond to voice commands. A collaboration with Landon, this project was developed at International Hellenic University, Thessaloniki, Greece.
 
