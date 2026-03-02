@@ -1,4 +1,4 @@
-<img width="2218" height="828" alt="image" src="https://github.com/user-attachments/assets/62b93a75-5702-4293-bcf2-bbd62d5dcfaf" /># Tello Drone: Face Tracking & Speech Command Control 🚁
+# Tello Drone: Face Tracking & Speech Command Control 🚁
 
 Welcome to the Tello Drone Face Tracking & Speech Recognition Project! This repository contains code and resources to enable your Tello drone to detect faces, track objects, and respond to voice commands. A collaboration with Landon, this project was developed at International Hellenic University, Thessaloniki, Greece.
 
@@ -10,10 +10,10 @@ Welcome to the Tello Drone Face Tracking & Speech Recognition Project! This repo
 **Keyboard Controls:** Manual drone control using Pygame for keypress handling.
 
 ## 📸 Preview
+![TelloExperience](https://github.com/user-attachments/assets/c546ca63-5931-4b0a-b930-a286696c770d)
+![TelloExperience2](https://github.com/user-attachments/assets/4fb1334e-6dac-4802-95ce-ad665c9bae32)
+![TelloExperience3](https://github.com/user-attachments/assets/6945231d-513d-4a4a-b8d3-d8d8d92ace23)
 
-![View1](design/TelloExperience.jpg)
-![View2](design/TelloExperience2.jpg)
-![View3](design/TelloExperience3.jpg)
 
 ## 🚀 To Start Off
 
