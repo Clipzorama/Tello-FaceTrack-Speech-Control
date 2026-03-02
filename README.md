@@ -10,9 +10,9 @@ Welcome to the Tello Drone Face Tracking & Speech Recognition Project! This repo
 **Keyboard Controls:** Manual drone control using Pygame for keypress handling.
 
 ## 📸 Preview
-<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/c9899f20-80c5-4b12-8fa4-2dd57b1d3206" />
-<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/bef9b2c0-5e53-4523-bf54-84ce2d40ce77" />
-<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/7be375d0-3f09-40be-a518-418a5831d107" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/c9899f20-80c5-4b12-8fa4-2dd57b1d3206" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/bef9b2c0-5e53-4523-bf54-84ce2d40ce77" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/7be375d0-3f09-40be-a518-418a5831d107" />
 
 
 
