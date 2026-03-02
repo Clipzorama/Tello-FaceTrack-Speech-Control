@@ -1,11 +1,11 @@
-import cv2  # Using this to read video and capture
-import time  # Time used for attempts
-import speech_recognition as sr  # Essential for speech recognition
-from djitellopy import tello  # Library for drone
-import keypress as kp  # Imported keyboard implementation
+import cv2  
+import time 
+import speech_recognition as sr  
+from djitellopy import tello  
+import keypress as kp  
 import vosk
 import json
-import os  # Using os library to make a path for the vosk models
+import os  
 
 
 chrision_drone = tello.Tello()
@@ -20,7 +20,6 @@ kp.init()
 r = sr.Recognizer()
 
 
-# Define the path to the Vosk model --> Seems that the accuracy is 10.38. Gonna test this before using the bigger vosk model and see if I need a higher accuracy level for this project
 model_dir = os.path.join(os.path.dirname(os.path.realpath(
     __file__)), "vosk_models", "vosk-model-small-en-us-0.15")
 vosk_model = vosk.Model(model_dir)
@@ -34,8 +33,8 @@ def recognize_audio(audio_data):
     return recognized_text
 
 
-max_retries = 3  # Three tries before raising an error
-retry_delay = 0.5  # in seconds (milliseconds)
+max_retries = 3  
+retry_delay = 0.5  
 failed_attempts = 0
 
 
@@ -73,7 +72,6 @@ def getKeyboardInput():
     return [lr, fb, ud, yv]
 
 
-# Adding a flag here to see if speech recognition is working
 speech_recognition_successful = False
 
 
@@ -82,7 +80,7 @@ for _ in range(max_retries):
         with sr.Microphone() as source:
             print("Speak to the computer what commands you want your Tello drone to do")
 
-            while True:  # Making the listening attempt continuous for the amount of max_retries
+            while True:
                 audio_data = r.listen(source, timeout=None)
                 audio_bytes = audio_data.get_raw_data(
                     convert_rate=16000, convert_width=2)
@@ -149,4 +147,4 @@ for _ in range(max_retries):
 else:
     print("Speech recognition request failed after multiple attempts.")
 
-cv2.destroyAllWindows()  # To ensure openCV window is closed properly
+cv2.destroyAllWindows()  
